@@ -13,13 +13,18 @@ def popular_movies_data(urls):
     popular_movies_list = list()
     for url in urls:
         URL = 'https://www.imdb.com{}'.format(url)
-        single_page = requests.get(URL) # loop here for url ti out/ proxy rotation
+        single_page = requests.get(URL)
         soup = BeautifulSoup(single_page.content, 'html.parser')
 
         title_block_div = soup.find('div', class_='title_block')
         title_block_a_tags = title_block_div.find_all('a')
-        genre_of_the_movie = "{}, {}".format(title_block_a_tags[2].text,
-                                             title_block_a_tags[3].text)
+        try:
+            genre_of_the_movie = "{}, {}".format(title_block_a_tags[2].text,
+                                                 title_block_a_tags[3].text)
+        except (LookupError, ValueError, IndexError):
+            genre_of_the_movie = "Not Available"
+        except Exception:
+            genre_of_the_movie = "Not Available"
 
         title_review_bar_div = soup.find('div', class_='titleReviewBar')
         title_review_bar_a_tags = title_review_bar_div.find_all('a')
@@ -53,34 +58,51 @@ def popular_movies_data(urls):
         if ' ' not in current_position_text.replace('\n', '').strip():
             current_position = \
                 int(current_position_text.replace('\n', '').strip())
-            popularity = 0
+            popularity = ""
         else:
             try:
                 current_position = \
                     int(current_position_text.replace('\n', '').strip()[0])
-            except IndexError:
-                pass
+            except (LookupError, ValueError, IndexError):
+                current_position = 0
+            except Exception:
+                current_position = 0
             try:
                 popularity = \
                     current_position_text.replace('\n', '').strip()[-3:-1]
-            except IndexError:
-                pass
+            except (LookupError, ValueError, IndexError):
+                popularity = ""
+            except Exception:
+                popularity = ""
             if position_image_up:
                 popularity = position_image_up + '' + str(popularity).strip()
             if position_image_down:
                 popularity = position_image_down + '' + str(popularity).strip()
             try:
-                number_of_user_reviews = \
-                    int(str(title_review_bar_a_tags[3].text[:-4]).
-                        replace(',', ''))
-            except IndexError:
+                if len(title_review_bar_a_tags):
+                    number_of_user_reviews = \
+                        int(str(title_review_bar_a_tags[3].text[:-4]).
+                            replace(',', ''))
+                else:
+                    number_of_user_reviews = 0
+            except (LookupError, ValueError,IndexError):
+                number_of_user_reviews = 0
+            except Exception:
                 number_of_user_reviews = 0
             try:
-                number_of_critic_reviews = \
-                    int(title_review_bar_a_tags[4].text[:-7])
-            except IndexError:
-                number_of_critic_reviews = \
-                    int(title_review_bar_div.find_all('a')[-1].text[0])
+                if len(title_review_bar_a_tags):
+                    number_of_critic_reviews = \
+                        int(title_review_bar_a_tags[4].text[:-7])
+                else:
+                    number_of_critic_reviews = 0
+            except (LookupError, ValueError,IndexError):
+                if len(title_review_bar_div.find_all('a')):
+                    number_of_critic_reviews = \
+                        int(title_review_bar_div.find_all('a')[-1].text[0])
+                else:
+                    number_of_critic_reviews = 0
+            except Exception:
+                number_of_critic_reviews = 0
         popular_movies_list.append(
             {
                 'current_position': current_position,
@@ -92,10 +114,11 @@ def popular_movies_data(urls):
 
             }
         )
-    with open('output.json', 'w', encoding='utf-8') as f:
-        json.dump(popular_movies_list, f, ensure_ascii=False, indent=4)
-
-    print("->>>>>>>> Data Scrapped ->>>>>>>>>>>>>")
-
+    try:
+        with open('output.json', 'w', encoding='utf-8') as f:
+            json.dump(popular_movies_list, f, ensure_ascii=False, indent=4)
+        print("->>>>>>>> Data Scrapped Successfully ->>>>>>>>>>>>>")
+    except FileNotFoundError:
+        print("Error: file not found")
     return popular_movies_list
 

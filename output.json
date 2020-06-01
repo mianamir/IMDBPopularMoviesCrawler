@@ -1,34 +1,802 @@
 [
     {
+        "current_position": 5,
+        "popularity": "-1",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 441,
+        "number_of_critic_reviews": 191
+    },
+    {
+        "current_position": 1,
+        "popularity": "-31",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Fantasy",
+        "number_of_user_reviews": 1653,
+        "number_of_critic_reviews": 355
+    },
+    {
+        "current_position": 3,
+        "popularity": "+21",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 1523,
+        "number_of_critic_reviews": 290
+    },
+    {
+        "current_position": 1,
+        "popularity": "-1",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Comedy",
+        "number_of_user_reviews": 1010,
+        "number_of_critic_reviews": 243
+    },
+    {
+        "current_position": 8,
+        "popularity": "+73",
+        "budget": 0,
+        "genre_of_the_movie": "Comedy, Horror",
+        "number_of_user_reviews": 813,
+        "number_of_critic_reviews": 325
+    },
+    {
+        "current_position": 1,
+        "popularity": "+2",
+        "budget": 0,
+        "genre_of_the_movie": "Sci-Fi, Thriller",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 1
+    },
+    {
         "current_position": 4,
-        "popularity": "+10",
+        "popularity": "+15",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Family",
+        "number_of_user_reviews": 1724,
+        "number_of_critic_reviews": 268
+    },
+    {
+        "current_position": 1,
+        "popularity": "-20",
         "budget": 0,
         "genre_of_the_movie": "Crime, Drama",
-        "number_of_user_reviews": 10147,
+        "number_of_user_reviews": 1258,
+        "number_of_critic_reviews": 218
+    },
+    {
+        "current_position": 3,
+        "popularity": "-2",
+        "budget": 0,
+        "genre_of_the_movie": "Comedy, Romance",
+        "number_of_user_reviews": 423,
+        "number_of_critic_reviews": 57
+    },
+    {
+        "current_position": 6,
+        "popularity": "-13",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 867,
+        "number_of_critic_reviews": 233
+    },
+    {
+        "current_position": 2,
+        "popularity": "-58",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Comedy",
+        "number_of_user_reviews": 551,
+        "number_of_critic_reviews": 142
+    },
+    {
+        "current_position": 7,
+        "popularity": "-3",
+        "budget": 0,
+        "genre_of_the_movie": "Crime, Drama",
+        "number_of_user_reviews": 10151,
         "number_of_critic_reviews": 680
     },
     {
-        "current_position": 5,
-        "popularity": "-3",
+        "current_position": 1,
+        "popularity": "-22",
+        "budget": 0,
+        "genre_of_the_movie": "War, 12 June 2020 (USA)\n",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 1,
+        "popularity": "-90",
+        "budget": 0,
+        "genre_of_the_movie": "Thriller, 21 August 2020 (USA)\n",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 6,
+        "popularity": "-45",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 2701,
+        "number_of_critic_reviews": 362
+    },
+    {
+        "current_position": 1,
+        "popularity": "-42",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Crime",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 2
+    },
+    {
+        "current_position": 6,
+        "popularity": "-32",
+        "budget": 0,
+        "genre_of_the_movie": "Biography, Comedy",
+        "number_of_user_reviews": 113,
+        "number_of_critic_reviews": 85
+    },
+    {
+        "current_position": 6,
+        "popularity": "-10",
+        "budget": 0,
+        "genre_of_the_movie": "Comedy, Crime",
+        "number_of_user_reviews": 672,
+        "number_of_critic_reviews": 262
+    },
+    {
+        "current_position": 1,
+        "popularity": "-12",
         "budget": 0,
         "genre_of_the_movie": "Biography, Crime",
-        "number_of_user_reviews": 236,
-        "number_of_critic_reviews": 68
+        "number_of_user_reviews": 239,
+        "number_of_critic_reviews": 69
+    },
+    {
+        "current_position": 5,
+        "popularity": "-16",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Fantasy",
+        "number_of_user_reviews": 521,
+        "number_of_critic_reviews": 141
+    },
+    {
+        "current_position": 2,
+        "popularity": "-10",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Sci-Fi",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 5,
+        "popularity": "-18",
+        "budget": 0,
+        "genre_of_the_movie": "Comedy, Drama",
+        "number_of_user_reviews": 218,
+        "number_of_critic_reviews": 65
+    },
+    {
+        "current_position": 4,
+        "popularity": "+8",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 3745,
+        "number_of_critic_reviews": 454
+    },
+    {
+        "current_position": 6,
+        "popularity": "-36",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Family",
+        "number_of_user_reviews": 649,
+        "number_of_critic_reviews": 221
+    },
+    {
+        "current_position": 1,
+        "popularity": "+3",
+        "budget": 0,
+        "genre_of_the_movie": "Horror, Mystery",
+        "number_of_user_reviews": 1222,
+        "number_of_critic_reviews": 371
+    },
+    {
+        "current_position": 7,
+        "popularity": "-22",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Sci-Fi",
+        "number_of_user_reviews": 4236,
+        "number_of_critic_reviews": 341
+    },
+    {
+        "current_position": 2,
+        "popularity": "+23",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 1983,
+        "number_of_critic_reviews": 496
+    },
+    {
+        "current_position": 2,
+        "popularity": "+11",
+        "budget": 0,
+        "genre_of_the_movie": "Crime, Drama",
+        "number_of_user_reviews": 3793,
+        "number_of_critic_reviews": 249
+    },
+    {
+        "current_position": 2,
+        "popularity": "-45",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Crime",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 1,
+        "popularity": "-9",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 1379,
+        "number_of_critic_reviews": 717
+    },
+    {
+        "current_position": 1,
+        "popularity": "-24",
+        "budget": 0,
+        "genre_of_the_movie": "Animation, Adventure",
+        "number_of_user_reviews": 186,
+        "number_of_critic_reviews": 80
+    },
+    {
+        "current_position": 9,
+        "popularity": "-6",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Fantasy",
+        "number_of_user_reviews": 2143,
+        "number_of_critic_reviews": 415
+    },
+    {
+        "current_position": 5,
+        "popularity": "-16",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Drama",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 1
+    },
+    {
+        "current_position": 8,
+        "popularity": "+8",
+        "budget": 0,
+        "genre_of_the_movie": "Biography, Crime",
+        "number_of_user_reviews": 2643,
+        "number_of_critic_reviews": 426
+    },
+    {
+        "current_position": 7,
+        "popularity": "+11",
+        "budget": 0,
+        "genre_of_the_movie": "Not Available",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 5,
+        "popularity": "+1",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Fantasy",
+        "number_of_user_reviews": 979,
+        "number_of_critic_reviews": 377
+    },
+    {
+        "current_position": 6,
+        "popularity": "-23",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 1976,
+        "number_of_critic_reviews": 824
+    },
+    {
+        "current_position": 3,
+        "popularity": "-2",
+        "budget": 0,
+        "genre_of_the_movie": "Comedy, Drama",
+        "number_of_user_reviews": 1272,
+        "number_of_critic_reviews": 401
+    },
+    {
+        "current_position": 4,
+        "popularity": "-1",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 949,
+        "number_of_critic_reviews": 236
+    },
+    {
+        "current_position": 8,
+        "popularity": "-4",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 4228,
+        "number_of_critic_reviews": 607
+    },
+    {
+        "current_position": 1,
+        "popularity": "-78",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, 12 June 2020 (USA)\n",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 1,
+        "popularity": "-16",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Romance",
+        "number_of_user_reviews": 930,
+        "number_of_critic_reviews": 469
+    },
+    {
+        "current_position": 6,
+        "popularity": "+1",
+        "budget": 0,
+        "genre_of_the_movie": "Crime, Drama",
+        "number_of_user_reviews": 2971,
+        "number_of_critic_reviews": 285
+    },
+    {
+        "current_position": 7,
+        "popularity": "+8",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Drama",
+        "number_of_user_reviews": 474,
+        "number_of_critic_reviews": 195
+    },
+    {
+        "current_position": 1,
+        "popularity": "-1",
+        "budget": 0,
+        "genre_of_the_movie": "Comedy, Crime",
+        "number_of_user_reviews": 1961,
+        "number_of_critic_reviews": 435
+    },
+    {
+        "current_position": 3,
+        "popularity": "-4",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Mystery",
+        "number_of_user_reviews": 45,
+        "number_of_critic_reviews": 29
+    },
+    {
+        "current_position": 5,
+        "popularity": "+7",
+        "budget": 0,
+        "genre_of_the_movie": "Crime, Drama",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 1,
+        "popularity": "-42",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Family",
+        "number_of_user_reviews": 839,
+        "number_of_critic_reviews": 214
+    },
+    {
+        "current_position": 1,
+        "popularity": "-16",
+        "budget": 0,
+        "genre_of_the_movie": "Animation, Adventure",
+        "number_of_user_reviews": 512,
+        "number_of_critic_reviews": 387
+    },
+    {
+        "current_position": 8,
+        "popularity": "+10",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Fantasy",
+        "number_of_user_reviews": 1180,
+        "number_of_critic_reviews": 340
+    },
+    {
+        "current_position": 26,
+        "popularity": "",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Horror",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 7,
+        "popularity": "-3",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Thriller",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 1
+    },
+    {
+        "current_position": 16,
+        "popularity": "",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, War",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 2,
+        "popularity": "-6",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 8750,
+        "number_of_critic_reviews": 550
+    },
+    {
+        "current_position": 91,
+        "popularity": 0,
+        "budget": 0,
+        "genre_of_the_movie": "Biography, Drama",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 2,
+        "popularity": "-7",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 7354,
+        "number_of_critic_reviews": 485
+    },
+    {
+        "current_position": 3,
+        "popularity": "-3",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, 14 October 1994 (USA)\n",
+        "number_of_user_reviews": 7853,
+        "number_of_critic_reviews": 161
+    },
+    {
+        "current_position": 6,
+        "popularity": "-19",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Drama",
+        "number_of_user_reviews": 555,
+        "number_of_critic_reviews": 172
+    },
+    {
+        "current_position": 4,
+        "popularity": "+4",
+        "budget": 0,
+        "genre_of_the_movie": "Comedy, Drama",
+        "number_of_user_reviews": 260,
+        "number_of_critic_reviews": 176
+    },
+    {
+        "current_position": 6,
+        "popularity": "-59",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Thriller",
+        "number_of_user_reviews": 119,
+        "number_of_critic_reviews": 14
+    },
+    {
+        "current_position": 6,
+        "popularity": "+5",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Drama",
+        "number_of_user_reviews": 1830,
+        "number_of_critic_reviews": 525
+    },
+    {
+        "current_position": 9,
+        "popularity": "-3",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Thriller",
+        "number_of_user_reviews": 2745,
+        "number_of_critic_reviews": 203
+    },
+    {
+        "current_position": 3,
+        "popularity": "-9",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Comedy",
+        "number_of_user_reviews": 1139,
+        "number_of_critic_reviews": 240
+    },
+    {
+        "current_position": 5,
+        "popularity": "-6",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Romance",
+        "number_of_user_reviews": 805,
+        "number_of_critic_reviews": 328
+    },
+    {
+        "current_position": 1,
+        "popularity": "ti",
+        "budget": 0,
+        "genre_of_the_movie": "Animation, Action",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 1
+    },
+    {
+        "current_position": 7,
+        "popularity": "+12",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Western",
+        "number_of_user_reviews": 1504,
+        "number_of_critic_reviews": 836
+    },
+    {
+        "current_position": 1,
+        "popularity": "-79",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Biography",
+        "number_of_user_reviews": 498,
+        "number_of_critic_reviews": 94
+    },
+    {
+        "current_position": 5,
+        "popularity": "-4",
+        "budget": 0,
+        "genre_of_the_movie": "Animation, Adventure",
+        "number_of_user_reviews": 548,
+        "number_of_critic_reviews": 272
+    },
+    {
+        "current_position": 1,
+        "popularity": "-26",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Sport",
+        "number_of_user_reviews": 205,
+        "number_of_critic_reviews": 108
+    },
+    {
+        "current_position": 1,
+        "popularity": "-55",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Crime",
+        "number_of_user_reviews": 491,
+        "number_of_critic_reviews": 180
+    },
+    {
+        "current_position": 6,
+        "popularity": "-4",
+        "budget": 0,
+        "genre_of_the_movie": "Animation, Adventure",
+        "number_of_user_reviews": 336,
+        "number_of_critic_reviews": 66
+    },
+    {
+        "current_position": 5,
+        "popularity": "+22",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 5338,
+        "number_of_critic_reviews": 336
+    },
+    {
+        "current_position": 1,
+        "popularity": "-1",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, 7 February 2020 (Poland)\n",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 3
+    },
+    {
+        "current_position": 3,
+        "popularity": "-6",
+        "budget": 0,
+        "genre_of_the_movie": "Horror, Sci-Fi",
+        "number_of_user_reviews": 832,
+        "number_of_critic_reviews": 152
+    },
+    {
+        "current_position": 9,
+        "popularity": "-4",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Horror",
+        "number_of_user_reviews": 698,
+        "number_of_critic_reviews": 218
+    },
+    {
+        "current_position": 9,
+        "popularity": "-22",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Drama",
+        "number_of_user_reviews": 387,
+        "number_of_critic_reviews": 153
+    },
+    {
+        "current_position": 2,
+        "popularity": "+39",
+        "budget": 0,
+        "genre_of_the_movie": "Crime, Drama",
+        "number_of_user_reviews": 1946,
+        "number_of_critic_reviews": 287
+    },
+    {
+        "current_position": 5,
+        "popularity": "-28",
+        "budget": 0,
+        "genre_of_the_movie": "Biography, Crime",
+        "number_of_user_reviews": 636,
+        "number_of_critic_reviews": 361
+    },
+    {
+        "current_position": 4,
+        "popularity": "+20",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Comedy",
+        "number_of_user_reviews": 158,
+        "number_of_critic_reviews": 94
+    },
+    {
+        "current_position": 4,
+        "popularity": "+2",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Drama",
+        "number_of_user_reviews": 3922,
+        "number_of_critic_reviews": 617
+    },
+    {
+        "current_position": 8,
+        "popularity": "-22",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Drama",
+        "number_of_user_reviews": 729,
+        "number_of_critic_reviews": 259
+    },
+    {
+        "current_position": 1,
+        "popularity": "-58",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 2617,
+        "number_of_critic_reviews": 208
     },
     {
         "current_position": 2,
         "popularity": "+3",
         "budget": 0,
-        "genre_of_the_movie": "Animation, Adventure",
-        "number_of_user_reviews": 334,
-        "number_of_critic_reviews": 65
+        "genre_of_the_movie": "Drama, Horror",
+        "number_of_user_reviews": 2492,
+        "number_of_critic_reviews": 379
+    },
+    {
+        "current_position": 4,
+        "popularity": "+25",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Horror",
+        "number_of_user_reviews": 538,
+        "number_of_critic_reviews": 194
+    },
+    {
+        "current_position": 1,
+        "popularity": "+8",
+        "budget": 0,
+        "genre_of_the_movie": "Fantasy, 10 July 2020 (USA)\n",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 0
     },
     {
         "current_position": 3,
-        "popularity": "+16",
+        "popularity": "+29",
         "budget": 0,
-        "genre_of_the_movie": "Sci-Fi, Thriller",
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 1211,
+        "number_of_critic_reviews": 303
+    },
+    {
+        "current_position": 1,
+        "popularity": "-6",
+        "budget": 0,
+        "genre_of_the_movie": "Comedy, Drama",
+        "number_of_user_reviews": 2463,
+        "number_of_critic_reviews": 513
+    },
+    {
+        "current_position": 3,
+        "popularity": "-4",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Comedy",
+        "number_of_user_reviews": 953,
+        "number_of_critic_reviews": 228
+    },
+    {
+        "current_position": 4,
+        "popularity": "+18",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Crime",
+        "number_of_user_reviews": 6760,
+        "number_of_critic_reviews": 421
+    },
+    {
+        "current_position": 7,
+        "popularity": "-7",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, 23 December 2020 (USA)\n",
         "number_of_user_reviews": 0,
-        "number_of_critic_reviews": 1
+        "number_of_critic_reviews": 0
+    },
+    {
+        "current_position": 9,
+        "popularity": "-2",
+        "budget": 0,
+        "genre_of_the_movie": "Biography, Crime",
+        "number_of_user_reviews": 1401,
+        "number_of_critic_reviews": 641
+    },
+    {
+        "current_position": 1,
+        "popularity": "-80",
+        "budget": 0,
+        "genre_of_the_movie": "Drama, Mystery",
+        "number_of_user_reviews": 223,
+        "number_of_critic_reviews": 47
+    },
+    {
+        "current_position": 7,
+        "popularity": "-19",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 876,
+        "number_of_critic_reviews": 554
+    },
+    {
+        "current_position": 5,
+        "popularity": "+10",
+        "budget": 0,
+        "genre_of_the_movie": "Adventure, Fantasy",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 3
+    },
+    {
+        "current_position": 1,
+        "popularity": "-5",
+        "budget": 0,
+        "genre_of_the_movie": "Comedy, Drama",
+        "number_of_user_reviews": 4969,
+        "number_of_critic_reviews": 602
+    },
+    {
+        "current_position": 7,
+        "popularity": "-3",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Biography",
+        "number_of_user_reviews": 1219,
+        "number_of_critic_reviews": 331
+    },
+    {
+        "current_position": 8,
+        "popularity": "+8",
+        "budget": 0,
+        "genre_of_the_movie": "Animation, Adventure",
+        "number_of_user_reviews": 2840,
+        "number_of_critic_reviews": 368
+    },
+    {
+        "current_position": 3,
+        "popularity": "-65",
+        "budget": 0,
+        "genre_of_the_movie": "Thriller, 19 May 2020 (USA)\n",
+        "number_of_user_reviews": 0,
+        "number_of_critic_reviews": 9
+    },
+    {
+        "current_position": 5,
+        "popularity": "+8",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Drama",
+        "number_of_user_reviews": 858,
+        "number_of_critic_reviews": 486
+    },
+    {
+        "current_position": 2,
+        "popularity": "-5",
+        "budget": 0,
+        "genre_of_the_movie": "Action, Adventure",
+        "number_of_user_reviews": 2003,
+        "number_of_critic_reviews": 365
     }
 ]

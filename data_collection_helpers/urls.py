@@ -17,8 +17,7 @@ def get_popular_movies_urls():
     for row in rows:
         a_tags = row.find_all('a')
         for a_single in a_tags:
-            if a_single['href'] not in data:
-                data.append(a_single['href'])
-    return data
+            data.append(a_single['href'])
+    return list(set(data))
 
 

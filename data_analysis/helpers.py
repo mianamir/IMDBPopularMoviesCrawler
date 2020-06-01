@@ -6,8 +6,10 @@ def movies_improved_in_popularity(data):
     """
     response = list()
     for movie in data:
-        if '+' in movie['popularity']:
-            response.append(movie)
+        if movie['popularity']:
+            if '+' in movie['popularity']:
+                response.append(movie)
+    print("Movies improved in popularity list: ")
     print(response)
 
 
@@ -32,11 +34,47 @@ def highest_rated_genre(data):
         )
     highest_rated_movie = max(avg_data,
                               key=lambda movie: movie['current_position'])
-    print("Highest rated genre: {}".format(highest_rated_movie))
+    print("Highest rated genre: ")
+    print(highest_rated_movie)
 
 
 def list_previous_week_position_of_each_movie(data):
-    pass
+    """
+    Will give list of previous week position of each movie
+    :param data:
+    :return: list of previous week position of each movie
+    """
+    response = list()
+    for movie in data:
+        try:
+            if '+' in movie['popularity']:
+                popularity = int(str(movie['popularity']).replace('+', ''))
+                movie['current_position'] = popularity + int(
+                    movie['current_position'])
+                response.append(
+                    {
+                        'genre_of_the_movie': movie['genre_of_the_movie'],
+                        'previous_week_position': movie['current_position']
 
+                    }
+                )
+        except TypeError:
+            pass
 
+        try:
+            if '-' in movie['popularity']:
+                popularity = int(str(movie['popularity']).replace('-', ''))
+                movie['current_position'] = popularity - int(
+                    movie['current_position'])
+                response.append(
+                    {
+                        'genre_of_the_movie': movie['genre_of_the_movie'],
+                        'previous_week_position': movie['current_position']
+
+                    }
+                )
+        except TypeError:
+            pass
+    print("List of previous week position of each movie: ")
+    print(response)
 
